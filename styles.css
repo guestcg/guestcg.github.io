@@ -1,23 +1,23 @@
 body {
-  background-color: black;
+  background-color: #0B010A;
   font-family: Arial, sans-serif;
 }
 
 a {
-  color: lightblue;
+  color: #ED0317;
   text-decoration: none;
 }
 
 a:visited {
-  color: #1e6b12;
+  color: #F3616D;
 }
 
 h1 {
-  color: yellow;
+  color: #A6020E;
 }
 
 h1:hover {
-  color:white;
+  color: #F4F1F4;
 }
 
 h2 span {
@@ -29,7 +29,7 @@ h4 {
 }
 
 p {
-  color: gold;
+  color: #F4F1F4;
   text-align: justify;
 }
 
