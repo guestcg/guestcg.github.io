@@ -4,10 +4,11 @@
 }
 
 body {
-  background-color:black;
+  background-color: black;
 }
 
 p {
+  color: white;
   display: block;
   width: 400px;
   margin: 50px auto;
