@@ -62,3 +62,8 @@ content: "";
 display: table;
 clear: both;
 }
+
+footer {
+  text-align: center;
+  color: #ED0317
+}
