@@ -1,20 +1,64 @@
 body {
   background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1e6b12;
 }
 
 h1 {
   color: yellow;
-  fontfamily: Arial, sans-serif;
 }
 
 h1:hover {
   color:white;
 }
 
+h2 span {
+  background-color: white;
+}
+
+h4 {
+  text-align: center;
+}
+
 p {
-  color: white;
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: gold;
+  text-align: justify;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  display: table-cell;
+  background-color: #302b2a;
+  box-sizing: border-box;
+  border-style: solid;
+  border-left: 5px;
+  border-color: black;
+  float: left;
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
 }
