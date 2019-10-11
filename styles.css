@@ -44,9 +44,35 @@ p {
   box-sizing: border-box;
   border-style: solid;
   border-left: 5px;
-  border-color: black;
+  border-color: #0B010A;
   float: left;
   width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.twitter-column {
+  display: table-cell;
+  background-color: #302b2a;
+  box-sizing: border-box;
+  border-style: solid;
+  border-left: 5px;
+  border-color: #0B010A;
+  float: left;
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pmtricks-column {
+  display: table-cell;
+  background-color: #302b2a;
+  box-sizing: border-box;
+  border-style: solid;
+  border-left: 5px;
+  border-color: #0B010A;
+  float: left;
+  width: 67%;
   padding-left: 10px;
   padding-right: 10px;
 }
